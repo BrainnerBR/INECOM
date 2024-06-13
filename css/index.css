@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+.navbar-custom {
+  height: 6rem; 
+  background-color: #ffffff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 0 3rem;
+  z-index: 1030; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.navbar-custom .navbar-brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar-custom .navbar-brand img {
+  height: 10vh; 
+  width: 10vh;
+}
+.navbar-custom .navbar-nav {
+  margin-left: auto; 
+  display: flex;
+  align-items: center; 
+}
+header{
+  height: 100vh;
+  margin-bottom: 5rem;
+}
+.img-fluid{
+  height: 100vh;
+}
+
+
+header h1{
+  font-weight: 600;
+  font-size: 4rem;
+  margin-left: 5%;
+  color: white;
+}
+
+.frase{
+  display: flex;
+  flex-direction: column;
+  margin-top: -25%;
+}
